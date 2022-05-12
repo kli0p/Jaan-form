@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UN WEBSITE DESIGN</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!--main page-->
+    <section class="header">
+    
+        <nav>
+            <a href="https://www.jazanu.edu.sa/ar" target="_blank"><img src="/img/images.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">الرئيسة</a></li>
+                    <li><a href="blog.html">الملف الشخصي</a></li>
+                    <li><a href="singin.html">تسجيل خروج</a></li>
+
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+
+    <div class="text-box">
+        <h1> عمادة خدمة المجتمع </h1>
+        <h5>قسم ادارة وتنظيم الفعاليات</h5>
+        <br>
+        <a href="#.html" class="hero-btn"> اضغط لتحدث مع مسؤول </a>
+
+    </div>
+    </section>
+    <section class="course">
+
+        <h1>الخدمات المتاحة</h1>
+        <div class="row">
+            <div class="course-col">
+                <h3>تسجيل فعالية</h3>
+               </div>
+            <div class="course-col">
+                <h3>تتبع فعالية</h3>
+             </div>
+            <div class="course-col">
+                <h3>ادخال الاحصائيات</h3>
+               </div>
+        </div>
+    </section>
+
+
+    <section class="footer">
+
+        <h4>about us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            <br> Officiis ratione a debitis porro iure, amet quidem ipsum <br>
+            exercitationem delectus eaque nisi? Aliquid, maiores assumenda.<br>
+             Debitis veniam minima odio iusto aspernatur!</p>
+             <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+             </div>
+                  <p>Made by amal faqihi.</p>
+   
+    </section>
+
+     
+
+    <script>
+
+        var navLinks = document.getElementById('navLinks')
+        function showMenu(){
+            navLinks.style.right ='0'
+        }
+        function hideMenu(){
+            navLinks.style.right ='-200px'
+        }
+
+
+    </script>
+</body>
+</html>

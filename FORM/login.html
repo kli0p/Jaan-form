@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>منصة عمادة خدمة المجتمع </title>
+    <link rel="stylesheet" href="style.css">
+ 
+</head>
+<body>
+    <section class="main">
+        <div class="box">
+             <header class="logo">
+                    <img src="/img/download.png" alt="">
+                    <img src="/img/images.jpg" alt="">
+              </header>
+                <div class="loheader">
+              <label for=""><h3>تسجيل</h3></label>
+          
+                  </div>
+             <form method="POST" action="formin.php" name="form1" onsubmit="return valid();">
+                <input type="text" name="name" placeholder="user name" required>
+                <input type="email" name="email" placeholder="email" required>
+                <input type="password" name="password" placeholder="password" required>
+                <select name="list" id="list" class="list">
+                    <option value="main">العمادة</option>
+                    <option value="student">طالب</option>
+                    <option value="collage">كلية</option>
+                    <option value="teacher">مدرب</option>
+                    <option value="teacher">جهة خارجية</option>
+                </select>
+                <input type="submit" name="submit" value="تسجيل" class="btn">
+                
+                <div class="op">
+                <h4>لديك حساب بالفعل؟ <a href="singin.html">سجل دخول</a></h4>
+            </div>
+            </form>
+               </div>
+    </section>
+     
+</body>
+</html>
